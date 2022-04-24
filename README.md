@@ -1,3 +1,3 @@
 # SQL_Projects
 Sql projects
-This is sample bike store database.
+This is Collection of SQL Queries.
