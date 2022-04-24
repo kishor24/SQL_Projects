@@ -1,0 +1,10 @@
+CREATE TABLE items
+(sku_item INTEGER NOT NULL PRIMARY KEY, item_name TEXT, 
+ item_qty_in_stock INTEGER, units_sold INTEGER, cost_price INTEGER, 
+ selling_price INTEGER) 
+
+INSERT INTO items (sku_item, item_name,item_qty_in_stock, units_sold, cost_price, 
+				   selling_price)
+VALUES (1013,'Yellow Velocity Large Mountain Bike',2,0,299,399);
+
+SELECT *FROM items
